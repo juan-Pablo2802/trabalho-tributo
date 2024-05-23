@@ -1,0 +1,72 @@
+header{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-family: arial;
+    width: 100vw;
+    margin: 0%;
+    top: 0%;
+    left: 0%;
+    padding: 0%;
+    position: absolute;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: arial;
+    background-image: url('Design sem nome.png');
+    background-color: black;
+}
+
+.h1header{
+    margin: 0;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+nav{
+    margin-bottom: 5px;
+    margin-left: 34%;
+    max-width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#links a:hover{
+    transform: scale(1.2);
+}
+
+#imagemdoakira:hover{
+    transform: scale(1.1);
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+.goku{
+    margin: 20%;
+position: absolute;
+    color: white;
+    background-color: black;
+    padding: 10%;
+}
